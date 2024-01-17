@@ -1,0 +1,18 @@
+{
+  "name": "insertfmt",
+  "description": "fast & easy formatter MySQL INSERT queries",
+  "version": "1.0.3",
+  "license": "MIT",
+  "files": [
+    "insertfmt_core_bg.wasm",
+    "insertfmt_core.js",
+    "insertfmt_core_bg.js",
+    "insertfmt_core.d.ts"
+  ],
+  "module": "insertfmt_core.js",
+  "types": "insertfmt_core.d.ts",
+  "sideEffects": [
+    "./insertfmt_core.js",
+    "./snippets/*"
+  ]
+}
